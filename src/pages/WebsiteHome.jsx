@@ -26,17 +26,17 @@ export default function WebsiteHome() {
         {/* LINK BUTTONS */}
         <div className="w-full flex flex-col gap-4">
           <a href="https://wa.me/553496442250" target="_blank" rel="noreferrer" className="group relative w-full bg-accent text-background p-4 rounded-2xl flex items-center justify-between hover:scale-[1.02] transition-transform shadow-lg shadow-accent/20">
-            <span className="font-sans font-bold text-base">Falar no WhatsApp</span>
-            <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+            <span className="font-sans font-bold text-base">WhatsApp</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 group-hover:scale-110 transition-transform"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           </a>
 
           <a href="https://junior-oliveira.pages.dev/" target="_blank" rel="noreferrer" className="group relative w-full bg-dark/50 border border-white/5 text-text p-4 rounded-2xl flex items-center justify-between hover:border-accent/50 hover:bg-white/5 transition-all">
-            <span className="font-sans font-medium text-base">Conheça Meu Site</span>
+            <span className="font-sans font-medium text-base">Site</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform text-accent" />
           </a>
           
           <a href="https://instagram.com/corretor.junioroliveira" target="_blank" rel="noreferrer" className="group relative w-full bg-dark/50 border border-white/5 text-text p-4 rounded-2xl flex items-center justify-between hover:border-accent/50 hover:bg-white/5 transition-all">
-            <span className="font-sans font-medium text-base">Siga no Instagram</span>
+            <span className="font-sans font-medium text-base">Instagram</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 group-hover:scale-110 transition-transform text-accent"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
           </a>
 

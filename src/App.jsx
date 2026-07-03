@@ -1,6 +1,6 @@
 import React from 'react';
-import WebsiteHome from './pages/WebsiteHome';
+import LandingPage from './pages/LandingPage';
 
 export default function App() {
-  return <WebsiteHome />;
+  return <LandingPage />;
 }

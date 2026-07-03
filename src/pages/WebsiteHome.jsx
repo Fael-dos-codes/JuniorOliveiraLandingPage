@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, Key, ArrowUpRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+
 
 export default function WebsiteHome() {
   return (
@@ -30,10 +30,10 @@ export default function WebsiteHome() {
             <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
           </a>
 
-          <Link to="/landing" className="group relative w-full bg-dark/50 border border-white/5 text-text p-4 rounded-2xl flex items-center justify-between hover:border-accent/50 hover:bg-white/5 transition-all">
+          <a href="https://junior-oliveira.pages.dev/" target="_blank" rel="noreferrer" className="group relative w-full bg-dark/50 border border-white/5 text-text p-4 rounded-2xl flex items-center justify-between hover:border-accent/50 hover:bg-white/5 transition-all">
             <span className="font-sans font-medium text-base">Conheça Meu Site</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform text-accent" />
-          </Link>
+          </a>
           
           <a href="https://instagram.com/corretor.junioroliveira" target="_blank" rel="noreferrer" className="group relative w-full bg-dark/50 border border-white/5 text-text p-4 rounded-2xl flex items-center justify-between hover:border-accent/50 hover:bg-white/5 transition-all">
             <span className="font-sans font-medium text-base">Siga no Instagram</span>
